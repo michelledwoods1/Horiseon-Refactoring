@@ -19,10 +19,14 @@ During the completion of this task, I learned:
 - how to create and compose a valid README.md file using Markdown
 - that the requirement to comprise a description in the README.md file is really a great opportunity to think about and comprehend what tasks are required
 - how to correctly add a screen shot to the README.md file
+- that <div> and class attributes are not necessary when an element aleady exists
+- that <li> attributes need to show separately from <nav> attributes
+- that <a> attributes in a list cannot be included in the <li> attributes of that list
+- 
 
 ## Steps Taken
 
-#### Step 1 - HTML
+#### Step 1 - HTML 1
 Working from the top down, I looked for any obvious issues and found:
 - Tiltle not very descriptive &mdash; changed from 'website' to 'Horiseon'
 - Attritubues inserted between text of h1 name &mdash; corrected
@@ -36,6 +40,12 @@ Working from the top down, I looked for any obvious issues and found:
 >Check line spacing within list elements
 
 ```
+
+### Step 3 - CSS 1
+- header has been created as a Class, but can be created using the element
+
+
+
  
 
 
