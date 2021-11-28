@@ -23,7 +23,20 @@ During the completion of this task, I learned:
 ## Steps Taken
 
 #### Step 1 - HTML
-- 
+Working from the top down, I looked for any obvious issues and found:
+- Tiltle not very descriptive &mdash; changed from 'website' to 'Horiseon'
+- Attritubues inserted between text of h1 name &mdash; corrected
+- Images have unnecessary spacing at end of elements &mdash; corrected
+- Paragraphs have uncessary spacing at start of sentences &mdash; corrected
+- Footer has h2 header element &mdash;changed to h3
+
+```
+>To check purpose and relevance of <span> element
+>To check relevance of multiple <div> elements
+>Check line spacing within list elements
+
+```
+ 
 
 
 
