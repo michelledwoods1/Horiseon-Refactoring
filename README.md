@@ -22,7 +22,7 @@ During the completion of this task, I learned:
 - that <div> and class attributes are not necessary when an element aleady exists
 - that <li> attributes need to show separately from <nav> attributes
 - that <a> attributes in a list cannot be included in the <li> attributes of that list
-- 
+- class selectors for images are linked to the parent class
 
 ## Steps Taken
 
