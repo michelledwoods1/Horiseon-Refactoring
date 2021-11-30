@@ -8,81 +8,82 @@
     </head>
 
     <body>
-        <!-- Header using Element attributes -->
+        <!-- Header using Element attributes and ID attribute with value "seo"-->
         <header>
-            <h1>Horiseon</h1>
-            <!-- Navigational List using Element attributes-->
-            <nav>
-                <ul>
-                   <li><a href="#">Search Engine Optimization</a></li>
-                   <li><a href="#">Online Reputation Management</a></li>
-                   <li><a href="#">Social Media Marketing</a></li>
-                </ul>
-             </nav>
+            <h1>Hori<span id=seo>seo</span>n</h1>
+                <!-- Navigation Links placed within Header -->
+                <nav>
+                <!-- List Items using href to link to ID attributes -->
+                    <ul>
+                        <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+                        <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                        <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+                    </ul>
+                </nav>
         </header>
 
         <main>
-            <!-- Div using Class attribute with value "hero"-->
-            <div class="hero"></div>
+            <!-- Section using Class attribute with value "hero"-->
+            <section class="hero"></section>
             
-            <!-- Div using Class attribute with value "content" -->
-            <div class="content">
+            <!-- Section using Class attribute with value "content" -->
+            <section class="content">
 
-                <!-- Section using Class attribute with value "content-box" -->
-                <section class="content-box">
+                <!-- Article using Class attribute with value "content-box" and ID attribute with value "search-engine-optimization"-->
+                <article class="content-box" id="search-engine-optimization">
                 <!-- Image using src to point to relative path and descriptive alt attributes -->
                     <img src="./assets/images/search-engine-optimization.jpg" alt="Image of Digital Marketing Meeting" class="float-left"/>
                     <h2>Search Engine Optimization</h2>
                     <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
-                </section>  
+                </article>
 
-                <!-- Section using Class attribute with value "content-box" -->
-                <section class="content-box">
+                <!-- Article using Class attribute with value "content-box" and ID attribute with value "online-reputation-management"-->
+                <article class="content-box" id=online-reputation-management>
                     <!-- Image using src to point to relative path and descriptive alt attributes -->
-                    <img src="./assets/images/online-reputation-management.jpg" alt="Image of person sitting at a desk using laptop and mobile phone" class="float-right"/>
+                    <img src="./assets/images/online-reputation-management.jpg" alt="Image of person sitting at a desk with a laptop and mobile phone" class="float-right"/>
                     <h2>Online Reputation Management</h2>
                     <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
-                </section>
+                </article>
                 
-                <!-- Section using Class attribute with value "content-box" -->
-                <section class="content-box">
+                <!-- Article using Class attribute with value "content-box" and ID attribute with value "social-media-marketing"-->
+                <article class="content-box" id=social-media-marketing>
                     <!-- Image using src to point to relative path and descriptive alt attributes -->
                     <img src="./assets/images/social-media-marketing.jpg" alt="Colourful image of numerous social media platforms" class="float-left"/>
                     <h2>Social Media Marketing</h2>
                     <p >Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
-                </section>
-            </div>
+                </article>
+            </section>
 
-            <!-- Div using Class attribute with value "benefits" -->
-            <div class="benefits">
-                <!-- Section using Class attribute with value "benefits-box" -->
-                <section class="benefits-box">
+            <!-- Section using Class attribute with value "benefits" -->
+            <section class="benefits">
+                <!-- Aside using Class attribute with value "benefits-box" -->
+                <aside class="benefits-box">
                     <h3>Lead Generation</h3>
                     <!-- Image using src to point to relative path and descriptive alt attributes -->
-                    <img src="./assets/images/lead-generation.png" alt="Icon reprensentng Lead Generation"/>
+                    <img src="./assets/images/lead-generation.png" alt="Icon representing Lead Generation"/>
                     <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
-                </section>
+                </aside>
 
-                <!-- Section using Class attribute with value "benefits-box" -->
-                <section class="benefits-box">
+                <!-- Aside using Class attribute with value "benefits-box" -->
+                <aside class="benefits-box">
                     <h3>Brand Awareness</h3>
                     <!-- Image using src to point to relative path and descriptive alt attributes -->
                     <img src="./assets/images/brand-awareness.png" alt="Icon of light bulb representing Brand Awareness"/>
                     <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
-                </section>
+                </aside>
 
-                <!-- Section using Class attribute with value "benefits-box" -->
-                <section class="benefits-box">
+                <!-- Aside using Class attribute with value "benefits-box" -->
+                <aside class="benefits-box">
                     <h3>Cost Management</h3>
                     <!-- Image using src to point to relative path and descriptive alt attributes -->
-                    <img src="./assets/images/cost-management.png" alt="Icon of dollar signs, reprensentng Cost Management"/>
+                    <img src="./assets/images/cost-management.png" alt="Icon with dollar signs, representing Cost Management"/>
                     <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
-                </section>
-            </div>
+                </aside>
+            </section>
         </main>
         <!-- Footer using Element attributes and ID attribute with value "footer-header" -->
         <footer>
-            <h4 id="footer-header">Made with ❤️️ by Horiseon</h4>
+            <h4>Made with ❤️️ by Horiseon</h4>
             <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
         </footer>
 

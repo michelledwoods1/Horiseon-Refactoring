@@ -1,71 +1,68 @@
 /* Universal Selector */
+/* padding and border are included in the width and height of all boxes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size: 16px;
 }
 
 /* Element Selectors */
+/* Set body background colour */
 body {
     background-color: #d9dcd6;
 }
 
+/* format and size header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
+/* format h1 and display in-line block (left to right) */
 h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;
+    color: #ffffff
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* format navigational links and position right */
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    display: inline-block;
-    margin-left: 25px;
 }
 
+/* format list items to display inline-block with spacing and without markers */
 li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
+    list-style-type: none;
 }
-
+/* format colour of hyperlink names; no text decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set global paragraph font size */
+p {
+    font-size: 16px;
+}
+
+/* format footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 10px;
 }
 
 /* Class Selectors */
-.nav ul {
-    list-style-type: none;
-}
-
+/* format Class "hero"; including point url to relative path*/
 .hero {
     height: 800px;
     width: 100%;
@@ -74,13 +71,14 @@ footer {
     background-size: cover;
     background-position: center;
 }
+/* format Class "content" to display inline-block to 75% of body width*/
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px; 
 }
-
+/* format Class "content-box" */
 .content-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,20 +88,18 @@ footer {
     color: #ffffff;
 }
 
-.content-box img {
-    max-height: 200px;
-}
-
+/* position Class "float-left" to the left hand side of its container  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* position Class "float-right" to the right hand side of its container  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* format Class "benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,17 +111,44 @@ footer {
     background-color: #2589bd;
 }
 
+/* format Class "benefits-box" */
 .benefits-box {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* ID Selectors */
+/*assign colour ID "seo" */
+#seo {
+    color: #d9dcd6;
+}
+
+/* Descendant Selectors */
+
+/* format images within Class "content-box" */
+.content-box img {
+    max-height: 200px;
+}
+
+/* format images within Class "benefits-box" */
 .benefits-box img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* ID Selectors */
-#footer-headerh4 {
-    font-size: 20px;
+/* format h2 within Class "content" */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+/* format h3 within Clas "benefits" */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* format paragraphs with the footer to be 95% of font size of the footer Element */
+footer p {
+    font-size: 95%;
+}
+
