@@ -14,45 +14,43 @@ By following and meeting accessiblity standards, the refactored website will be:
 #
 ## What I learned
 During the completion of this task, I learned:
-- how to create and compose a README file using Markdown
-- that comprising a descriptive README file is a great opportunity to think about and comprehend what the task will entail
-- how to add a screenshot to the README file
-- how the scan element works
-- how the a element works
-- how descendant selectors work
+- How to compose a README file using Markdown
+- How to add a screenshot to the README file
+- How the 'scan' element works
+- How the 'a' element links work
+- About Descendant Selectors
 #
 ## Steps Taken
 
-- #### Step 1 - Create Draft README content
+- #### Step 1 - Create draft README content
 
 - #### Step 2 - HTML Initial Review
-
-    Working from the top down, looked for obvious issues. Examples:
-    - Title not descriptive
-    - No header element
-    - Uncessary spaces
-    - Images without alt tags
-    - Footer header not html semantic
-    - Excessive use of div elements
+        Working from the top down, looked for obvious issues. Examples:
+            - Title not descriptive
+            - No header element
+            - Uncessary spaces
+            - Images without alt tags
+            - Footer header not html semantic
+            - Excessive use of div elements
 
 - #### Step 3 - CSS Initial Review
+        Working from the top down, looking for obvious issues. Examples:
+            - No comments for the different types of selectors
+            - Excessive, Repetative and Redundant Class Selectors
 
-    Working from the top down, looking for obvious issues. Examples:
-    - No comments for the different types of selectors
-    - Excessive, Repetative and Redundant Class Selectors
+- #### Step 4 - HTML & CSS Indepth Review and Changes - Header
 
-- #### Step 4 - HTML & CSS Indepth Review - Header
+- #### Step 5 - HTML & CSS Indepth Review and Changes - Main Content
 
-- #### Step 5 - HTML & CSS Indepth Review - Main Content
+- #### Step 6 - HTML & CSS Indepth Review and Changes - SideBar
 
-- #### Step 6 - HTML & CSS Indepth Review - SideBar
+- #### Step 7 - HTML & CSS Indepth Review and Changes - Footer
 
-- #### Step 7 - HTML & CSS Indepth Review - Footer
+- #### Step 8 - HTML & CSS Final Review and Changes - Spacing and Commenting
 
-- #### Step 8 - HTML & CSS Final Check - for spacing and correctness
+- #### Step 9 - Update and complete README content
 
-- #### Step 9 - Complete README content
-
-[Click here to view Horiseon Webiste](https://michelledwoods1.github.io/Horiseon-Refactoring/)
-
+#
+[Click here to view Horiseon Website](https://michelledwoods1.github.io/Horiseon-Refactoring/)
+#
 ![Screenshot of Webiste url](assets/images/screenshot.png)
